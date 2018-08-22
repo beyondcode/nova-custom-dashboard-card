@@ -25,7 +25,7 @@ public function cards()
 {
     return [
         // ...
-        new \Beyondcode\LaravelUpdateCard\LaravelUpdateCard(),
+        new \Beyondcode\CustomDashboardCard\CustomDashboard,
     ];
 }
 ```
