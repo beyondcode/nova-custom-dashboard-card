@@ -1,0 +1,47 @@
+{
+    "name": "beyondcode/nova-custom-dashboard-card",
+    "description": "A Laravel Nova dashboard card that allows you to build custom dashboards.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcel Pociot",
+            "email": "marcel@beyondco.de",
+            "homepage": "https://beyondco.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.6",
+        "phpunit/phpunit": "7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beyondcode\\CustomDashboardCard\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Beyondcode\\CustomDashboardCard\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Beyondcode\\CustomDashboardCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
