@@ -41,7 +41,7 @@ You can register them in your `NovaServiceProvider`
 ```php
 // in app/Providers/NovaServiceProvder.php
 
-use Beyondcode\CustomDashboardCard\CustomDashboard;
+use Beyondcode\CustomDashboardCard\NovaCustomDashboard;
 
 public function boot()
 {
