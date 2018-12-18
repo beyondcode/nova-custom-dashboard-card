@@ -17,6 +17,6 @@
         "gridstack": "^0.4.0",
         "laravel-nova": "^1.0.2",
         "vue": "^2.5.0",
-        "vue-grid-layout": "^2.1.13"
+        "vue-grid-layout": "2.1.13"
     }
 }
